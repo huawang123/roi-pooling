@@ -1,4 +1,4 @@
-TF_INC = $(shell python -c 'import tensorflow as tf; print(tf.sysconfig.get_include())')
+TF_INC = $(shell python3 -c 'import tensorflow as tf; print(tf.sysconfig.get_include())')
 CUDA_LIB = /usr/local/cuda-8.0/targets/x86_64-linux/lib/
 
 all: clean build test
