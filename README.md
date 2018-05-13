@@ -1,3 +1,5 @@
+#支持python3编译
+
 # RoI pooling in TensorFlow
 
 This repo contains the implementation of **Region of Interest pooling** as a custom TensorFlow operation. The CUDA code responsible for the computations was largely taken from the original [Caffe implementation by Ross Girshick](https://github.com/rbgirshick/fast-rcnn).
